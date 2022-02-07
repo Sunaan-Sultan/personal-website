@@ -1,0 +1,78 @@
+@font-face {
+    font-family: apparat, sans-serif;
+    src: url(fonts/Apparat-Medium.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: neometric;
+    src: url(fonts/Neometric\ Alt\ Black\ \(Regular\).otf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: BRSonoma-Regular;
+    src: url(fonts/BRSonoma-Regular.otf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1{
+    font-family: apparat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+h2{
+    font-family: neometric;
+    font-style: mormal;
+    font-weight: 300;
+    margin-top: -3%;
+}
+
+p{
+    font-family: BRSonoma-Regular;
+    src: url("fonts/BRSonoma-Regular.otf");
+    font-style: normal;
+    font-weight: 300;
+    padding-bottom: 3%;
+}
+
+.highlight{
+    color: rgb(241, 8, 105);
+}
+
+.link-button{
+    font-family: BRSonoma-Regular;
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+    background-image: linear-gradient(45deg, rgb(238, 53, 130), rgb(235, 8, 102));
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.half-width{
+    padding-top: 12%;
+    padding-left: 10%;
+    float: left;
+    margin-left: 5%;
+    width: 30%;
+    height: 100%;
+}
+
+.half-width img{
+    width: 150%;
+    float: right;
+    margin-right: -15%;
+    margin-top: -35%;
+    height: 100%;
+}
+
+.header{
+    background-image: url("images/header-bg.png");
+    background-size: 100%;
+    background-position: left;
+}
