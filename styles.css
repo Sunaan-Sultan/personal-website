@@ -76,3 +76,89 @@ p{
     background-size: 100%;
     background-position: left;
 }
+
+.half-width2{
+    padding-top: 12%;
+    padding-left: 10%;
+    float: left;
+    margin-left: 2%;
+    width: 30%;
+
+}
+
+.half-width2 img{
+    padding-bottom: 15%;
+    width: 150%;
+    margin-top: -15%;
+    margin-right: -20%;
+    float: right;
+    margin-left: 5%;
+}
+
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-size: 100%;
+    background-position: left;
+}
+
+.banner {
+    padding-left: 5%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 95%;
+    grid-column-gap: 1px;
+}
+  
+.banner img {
+    width: 90%;
+}
+
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-size: 100%;
+    background-position: left;
+}
+
+.misc{
+    font-size:50px;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    padding-left: 38%;
+}
+
+.paragraph2{
+    padding-left: 45%;
+}
+
+.paragraph3{
+    padding-left: 28%;
+    padding-bottom: 5%;
+    width: 50%;
+    margin-top: -2%;
+}
+
+.paragraph4{
+    padding-left:44%;
+    width: 50%;
+    margin-top: -2%;
+    
+}
+
+.paragraph5{
+    padding-left: 40%;
+    font-size: 150%;
+    margin-top: -3%;
+    
+}
+
+.client{
+    background-image: url("images/footer-bg.png");
+    background-size: 100%;
+    background-position: left;
+}
+
+footer p {
+    padding-left: 43%;
+    font-size: 12px;
+}
